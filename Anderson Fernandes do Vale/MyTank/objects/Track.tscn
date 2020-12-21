@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://sprites/tracksDouble.png" type="Texture" id=1]
+[ext_resource path="res://objects/tracksDouble.gd" type="Script" id=2]
+
+[node name="Track" type="Node2D"]
+
+[node name="tracksDouble" type="Sprite" parent="."]
+rotation = 1.5708
+texture = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="TimerDestroy" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+[connection signal="timeout" from="TimerDestroy" to="tracksDouble" method="_on_TimerDestroy_timeout"]

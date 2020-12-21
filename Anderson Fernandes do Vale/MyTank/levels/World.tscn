@@ -1,0 +1,57 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://objects/Tank.tscn" type="PackedScene" id=1]
+[ext_resource path="res://objects/Wall.tscn" type="PackedScene" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 87.8046
+
+[node name="World" type="Node2D"]
+
+[node name="Tank" parent="." instance=ExtResource( 1 )]
+position = Vector2( 230.963, 269.104 )
+max_shoot = 6
+body_skin = 3
+barrel_skin = 3
+
+[node name="Wall" parent="." instance=ExtResource( 2 )]
+position = Vector2( 154.493, 8.20278 )
+
+[node name="Wall2" parent="Wall" instance=ExtResource( 2 )]
+position = Vector2( 408.577, 0 )
+
+[node name="Wall3" parent="Wall" instance=ExtResource( 2 )]
+position = Vector2( 810.419, 0 )
+
+[node name="Wall4" parent="Wall" instance=ExtResource( 2 )]
+position = Vector2( 812.663, 581.436 )
+
+[node name="Wall5" parent="Wall" instance=ExtResource( 2 )]
+position = Vector2( 410.822, 581.436 )
+
+[node name="Wall6" parent="Wall" instance=ExtResource( 2 )]
+position = Vector2( 6.735, 581.436 )
+
+[node name="Wall7" parent="Wall" instance=ExtResource( 2 )]
+position = Vector2( -148.165, 110.001 )
+rotation = 1.5708
+
+[node name="Wall8" parent="Wall" instance=ExtResource( 2 )]
+position = Vector2( -148.165, 469.189 )
+rotation = 1.5708
+
+[node name="Wall9" parent="Wall" instance=ExtResource( 2 )]
+position = Vector2( 864.297, 464.699 )
+rotation = 1.5708
+
+[node name="Wall10" parent="Wall" instance=ExtResource( 2 )]
+position = Vector2( 864.297, 94.2872 )
+rotation = 1.5708
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Wall"]
+position = Vector2( 363.898, 261.626 )
+collision_layer = 4
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall/StaticBody2D"]
+shape = SubResource( 1 )

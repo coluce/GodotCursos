@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/candyBar.obj-f15a272398514cbcb1d36fa7ae76a543.mesh"
+
+[deps]
+
+files=[ "res://.import/candyBar.obj-f15a272398514cbcb1d36fa7ae76a543.mesh" ]
+
+source_file="res://assets/Powerups/comida/candyBar.obj"
+dest_files=[ "res://.import/candyBar.obj-f15a272398514cbcb1d36fa7ae76a543.mesh", "res://.import/candyBar.obj-f15a272398514cbcb1d36fa7ae76a543.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

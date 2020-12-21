@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/celeryStick.obj-c9eb289323b51f1ce336f410de54f994.mesh"
+
+[deps]
+
+files=[ "res://.import/celeryStick.obj-c9eb289323b51f1ce336f410de54f994.mesh" ]
+
+source_file="res://assets/Powerups/comida/celeryStick.obj"
+dest_files=[ "res://.import/celeryStick.obj-c9eb289323b51f1ce336f410de54f994.mesh", "res://.import/celeryStick.obj-c9eb289323b51f1ce336f410de54f994.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

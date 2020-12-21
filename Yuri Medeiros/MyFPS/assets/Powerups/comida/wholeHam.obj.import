@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wholeHam.obj-9bfec2c2b23a93d29e9d1d762be62b36.mesh"
+
+[deps]
+
+files=[ "res://.import/wholeHam.obj-9bfec2c2b23a93d29e9d1d762be62b36.mesh" ]
+
+source_file="res://assets/Powerups/comida/wholeHam.obj"
+dest_files=[ "res://.import/wholeHam.obj-9bfec2c2b23a93d29e9d1d762be62b36.mesh", "res://.import/wholeHam.obj-9bfec2c2b23a93d29e9d1d762be62b36.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pear.obj-1708378eb7bba5cac74dc27fcb93596c.mesh"
+
+[deps]
+
+files=[ "res://.import/pear.obj-1708378eb7bba5cac74dc27fcb93596c.mesh" ]
+
+source_file="res://assets/Powerups/comida/pear.obj"
+dest_files=[ "res://.import/pear.obj-1708378eb7bba5cac74dc27fcb93596c.mesh", "res://.import/pear.obj-1708378eb7bba5cac74dc27fcb93596c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

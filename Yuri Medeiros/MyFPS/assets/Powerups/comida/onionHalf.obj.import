@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/onionHalf.obj-6bf59aefecbe603a3b16e6f8430dbaaf.mesh"
+
+[deps]
+
+files=[ "res://.import/onionHalf.obj-6bf59aefecbe603a3b16e6f8430dbaaf.mesh" ]
+
+source_file="res://assets/Powerups/comida/onionHalf.obj"
+dest_files=[ "res://.import/onionHalf.obj-6bf59aefecbe603a3b16e6f8430dbaaf.mesh", "res://.import/onionHalf.obj-6bf59aefecbe603a3b16e6f8430dbaaf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

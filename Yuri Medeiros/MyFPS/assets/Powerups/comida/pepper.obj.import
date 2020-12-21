@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pepper.obj-a95e42dfca07400b427967b260eddd9c.mesh"
+
+[deps]
+
+files=[ "res://.import/pepper.obj-a95e42dfca07400b427967b260eddd9c.mesh" ]
+
+source_file="res://assets/Powerups/comida/pepper.obj"
+dest_files=[ "res://.import/pepper.obj-a95e42dfca07400b427967b260eddd9c.mesh", "res://.import/pepper.obj-a95e42dfca07400b427967b260eddd9c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

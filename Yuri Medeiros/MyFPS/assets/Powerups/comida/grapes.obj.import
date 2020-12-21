@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/grapes.obj-b1edd1af5764fcc997bb85a375c3ce2e.mesh"
+
+[deps]
+
+files=[ "res://.import/grapes.obj-b1edd1af5764fcc997bb85a375c3ce2e.mesh" ]
+
+source_file="res://assets/Powerups/comida/grapes.obj"
+dest_files=[ "res://.import/grapes.obj-b1edd1af5764fcc997bb85a375c3ce2e.mesh", "res://.import/grapes.obj-b1edd1af5764fcc997bb85a375c3ce2e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

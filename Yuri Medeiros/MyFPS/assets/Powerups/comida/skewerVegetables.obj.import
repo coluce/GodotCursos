@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/skewerVegetables.obj-d405d51d8d71b434c5fc3b49fdcf1a20.mesh"
+
+[deps]
+
+files=[ "res://.import/skewerVegetables.obj-d405d51d8d71b434c5fc3b49fdcf1a20.mesh" ]
+
+source_file="res://assets/Powerups/comida/skewerVegetables.obj"
+dest_files=[ "res://.import/skewerVegetables.obj-d405d51d8d71b434c5fc3b49fdcf1a20.mesh", "res://.import/skewerVegetables.obj-d405d51d8d71b434c5fc3b49fdcf1a20.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

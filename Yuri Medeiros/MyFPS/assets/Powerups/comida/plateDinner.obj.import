@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/plateDinner.obj-fab1e46a52e023baf4520ff6924e2825.mesh"
+
+[deps]
+
+files=[ "res://.import/plateDinner.obj-fab1e46a52e023baf4520ff6924e2825.mesh" ]
+
+source_file="res://assets/Powerups/comida/plateDinner.obj"
+dest_files=[ "res://.import/plateDinner.obj-fab1e46a52e023baf4520ff6924e2825.mesh", "res://.import/plateDinner.obj-fab1e46a52e023baf4520ff6924e2825.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

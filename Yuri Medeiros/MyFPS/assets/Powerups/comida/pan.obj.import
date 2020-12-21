@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pan.obj-9c88fefaad903cdce9011f7d89e919ff.mesh"
+
+[deps]
+
+files=[ "res://.import/pan.obj-9c88fefaad903cdce9011f7d89e919ff.mesh" ]
+
+source_file="res://assets/Powerups/comida/pan.obj"
+dest_files=[ "res://.import/pan.obj-9c88fefaad903cdce9011f7d89e919ff.mesh", "res://.import/pan.obj-9c88fefaad903cdce9011f7d89e919ff.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

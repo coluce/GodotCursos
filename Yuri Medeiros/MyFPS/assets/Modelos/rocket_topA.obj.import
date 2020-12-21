@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rocket_topA.obj-34ae36e6349e61e82c7949768f991763.mesh"
+
+[deps]
+
+files=[ "res://.import/rocket_topA.obj-34ae36e6349e61e82c7949768f991763.mesh" ]
+
+source_file="res://assets/Modelos/rocket_topA.obj"
+dest_files=[ "res://.import/rocket_topA.obj-34ae36e6349e61e82c7949768f991763.mesh", "res://.import/rocket_topA.obj-34ae36e6349e61e82c7949768f991763.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

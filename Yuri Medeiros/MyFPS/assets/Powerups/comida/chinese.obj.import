@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/chinese.obj-342d849892962891fc872926e3bf89df.mesh"
+
+[deps]
+
+files=[ "res://.import/chinese.obj-342d849892962891fc872926e3bf89df.mesh" ]
+
+source_file="res://assets/Powerups/comida/chinese.obj"
+dest_files=[ "res://.import/chinese.obj-342d849892962891fc872926e3bf89df.mesh", "res://.import/chinese.obj-342d849892962891fc872926e3bf89df.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

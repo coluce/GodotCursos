@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/makiRoe.obj-8bbe8cc01980fe82911f5daacdbcf309.mesh"
+
+[deps]
+
+files=[ "res://.import/makiRoe.obj-8bbe8cc01980fe82911f5daacdbcf309.mesh" ]
+
+source_file="res://assets/Powerups/comida/makiRoe.obj"
+dest_files=[ "res://.import/makiRoe.obj-8bbe8cc01980fe82911f5daacdbcf309.mesh", "res://.import/makiRoe.obj-8bbe8cc01980fe82911f5daacdbcf309.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

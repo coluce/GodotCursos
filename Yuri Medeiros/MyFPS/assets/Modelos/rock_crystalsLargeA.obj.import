@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rock_crystalsLargeA.obj-5093c5b868ee8b9e687798b9416a186b.mesh"
+
+[deps]
+
+files=[ "res://.import/rock_crystalsLargeA.obj-5093c5b868ee8b9e687798b9416a186b.mesh" ]
+
+source_file="res://assets/Modelos/rock_crystalsLargeA.obj"
+dest_files=[ "res://.import/rock_crystalsLargeA.obj-5093c5b868ee8b9e687798b9416a186b.mesh", "res://.import/rock_crystalsLargeA.obj-5093c5b868ee8b9e687798b9416a186b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

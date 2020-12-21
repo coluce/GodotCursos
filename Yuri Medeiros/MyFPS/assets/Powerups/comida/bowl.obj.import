@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bowl.obj-971fa3ee53f5586cccc114b683219732.mesh"
+
+[deps]
+
+files=[ "res://.import/bowl.obj-971fa3ee53f5586cccc114b683219732.mesh" ]
+
+source_file="res://assets/Powerups/comida/bowl.obj"
+dest_files=[ "res://.import/bowl.obj-971fa3ee53f5586cccc114b683219732.mesh", "res://.import/bowl.obj-971fa3ee53f5586cccc114b683219732.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

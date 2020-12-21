@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/mushroomHalf.obj-1a791a6e65d6aaf2543b308be8cb18f2.mesh"
+
+[deps]
+
+files=[ "res://.import/mushroomHalf.obj-1a791a6e65d6aaf2543b308be8cb18f2.mesh" ]
+
+source_file="res://assets/Powerups/comida/mushroomHalf.obj"
+dest_files=[ "res://.import/mushroomHalf.obj-1a791a6e65d6aaf2543b308be8cb18f2.mesh", "res://.import/mushroomHalf.obj-1a791a6e65d6aaf2543b308be8cb18f2.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

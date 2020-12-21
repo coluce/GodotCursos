@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/utensilSpoon.obj-5bd307122d0ad460418d1b6a32f67fdb.mesh"
+
+[deps]
+
+files=[ "res://.import/utensilSpoon.obj-5bd307122d0ad460418d1b6a32f67fdb.mesh" ]
+
+source_file="res://assets/Powerups/comida/utensilSpoon.obj"
+dest_files=[ "res://.import/utensilSpoon.obj-5bd307122d0ad460418d1b6a32f67fdb.mesh", "res://.import/utensilSpoon.obj-5bd307122d0ad460418d1b6a32f67fdb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

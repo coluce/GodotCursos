@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cornDog.obj-f2aac42ca53e99055118021f3b329e6d.mesh"
+
+[deps]
+
+files=[ "res://.import/cornDog.obj-f2aac42ca53e99055118021f3b329e6d.mesh" ]
+
+source_file="res://assets/Powerups/comida/cornDog.obj"
+dest_files=[ "res://.import/cornDog.obj-f2aac42ca53e99055118021f3b329e6d.mesh", "res://.import/cornDog.obj-f2aac42ca53e99055118021f3b329e6d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

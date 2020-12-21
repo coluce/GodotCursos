@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pumpkin.obj-c0034cb3ba7dbff9d9eca1eaf8bfa0aa.mesh"
+
+[deps]
+
+files=[ "res://.import/pumpkin.obj-c0034cb3ba7dbff9d9eca1eaf8bfa0aa.mesh" ]
+
+source_file="res://assets/Powerups/comida/pumpkin.obj"
+dest_files=[ "res://.import/pumpkin.obj-c0034cb3ba7dbff9d9eca1eaf8bfa0aa.mesh", "res://.import/pumpkin.obj-c0034cb3ba7dbff9d9eca1eaf8bfa0aa.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

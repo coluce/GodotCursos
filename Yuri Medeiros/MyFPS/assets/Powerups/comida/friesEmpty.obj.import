@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/friesEmpty.obj-e75a384bd7cd2413bf910c08ae565acd.mesh"
+
+[deps]
+
+files=[ "res://.import/friesEmpty.obj-e75a384bd7cd2413bf910c08ae565acd.mesh" ]
+
+source_file="res://assets/Powerups/comida/friesEmpty.obj"
+dest_files=[ "res://.import/friesEmpty.obj-e75a384bd7cd2413bf910c08ae565acd.mesh", "res://.import/friesEmpty.obj-e75a384bd7cd2413bf910c08ae565acd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

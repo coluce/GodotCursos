@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/soy.obj-46478756f04fa2436eeb32522453e8fc.mesh"
+
+[deps]
+
+files=[ "res://.import/soy.obj-46478756f04fa2436eeb32522453e8fc.mesh" ]
+
+source_file="res://assets/Powerups/comida/soy.obj"
+dest_files=[ "res://.import/soy.obj-46478756f04fa2436eeb32522453e8fc.mesh", "res://.import/soy.obj-46478756f04fa2436eeb32522453e8fc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

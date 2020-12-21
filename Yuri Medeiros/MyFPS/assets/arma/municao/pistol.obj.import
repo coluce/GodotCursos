@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pistol.obj-9e65d26dfecf9fccae4c2d99502e116a.mesh"
+
+[deps]
+
+files=[ "res://.import/pistol.obj-9e65d26dfecf9fccae4c2d99502e116a.mesh" ]
+
+source_file="res://assets/arma/municao/pistol.obj"
+dest_files=[ "res://.import/pistol.obj-9e65d26dfecf9fccae4c2d99502e116a.mesh", "res://.import/pistol.obj-9e65d26dfecf9fccae4c2d99502e116a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/wholerHam.obj-dec1fd3fa0d947dbcb91b22afd8abaaf.mesh"
+
+[deps]
+
+files=[ "res://.import/wholerHam.obj-dec1fd3fa0d947dbcb91b22afd8abaaf.mesh" ]
+
+source_file="res://assets/Powerups/comida/wholerHam.obj"
+dest_files=[ "res://.import/wholerHam.obj-dec1fd3fa0d947dbcb91b22afd8abaaf.mesh", "res://.import/wholerHam.obj-dec1fd3fa0d947dbcb91b22afd8abaaf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

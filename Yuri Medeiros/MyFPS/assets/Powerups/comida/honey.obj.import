@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/honey.obj-30320d5ebadda9c03ec70769982d129d.mesh"
+
+[deps]
+
+files=[ "res://.import/honey.obj-30320d5ebadda9c03ec70769982d129d.mesh" ]
+
+source_file="res://assets/Powerups/comida/honey.obj"
+dest_files=[ "res://.import/honey.obj-30320d5ebadda9c03ec70769982d129d.mesh", "res://.import/honey.obj-30320d5ebadda9c03ec70769982d129d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

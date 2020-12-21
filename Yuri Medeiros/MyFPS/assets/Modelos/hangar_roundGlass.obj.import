@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/hangar_roundGlass.obj-d7a28cb77f560ac0d6da07dc4fa3159d.mesh"
+
+[deps]
+
+files=[ "res://.import/hangar_roundGlass.obj-d7a28cb77f560ac0d6da07dc4fa3159d.mesh" ]
+
+source_file="res://assets/Modelos/hangar_roundGlass.obj"
+dest_files=[ "res://.import/hangar_roundGlass.obj-d7a28cb77f560ac0d6da07dc4fa3159d.mesh", "res://.import/hangar_roundGlass.obj-d7a28cb77f560ac0d6da07dc4fa3159d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/chocolate.obj-9dbb081f4dd8c13c94afc36c768f68ad.mesh"
+
+[deps]
+
+files=[ "res://.import/chocolate.obj-9dbb081f4dd8c13c94afc36c768f68ad.mesh" ]
+
+source_file="res://assets/Powerups/comida/chocolate.obj"
+dest_files=[ "res://.import/chocolate.obj-9dbb081f4dd8c13c94afc36c768f68ad.mesh", "res://.import/chocolate.obj-9dbb081f4dd8c13c94afc36c768f68ad.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

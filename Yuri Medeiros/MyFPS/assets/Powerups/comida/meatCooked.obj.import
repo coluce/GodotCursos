@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/meatCooked.obj-7c002a43826cfbed0933087b0abfed8f.mesh"
+
+[deps]
+
+files=[ "res://.import/meatCooked.obj-7c002a43826cfbed0933087b0abfed8f.mesh" ]
+
+source_file="res://assets/Powerups/comida/meatCooked.obj"
+dest_files=[ "res://.import/meatCooked.obj-7c002a43826cfbed0933087b0abfed8f.mesh", "res://.import/meatCooked.obj-7c002a43826cfbed0933087b0abfed8f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

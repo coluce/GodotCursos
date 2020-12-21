@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cakeSlicer.obj-4e148b6c9764f2edca83ac9c1ba03783.mesh"
+
+[deps]
+
+files=[ "res://.import/cakeSlicer.obj-4e148b6c9764f2edca83ac9c1ba03783.mesh" ]
+
+source_file="res://assets/Powerups/comida/cakeSlicer.obj"
+dest_files=[ "res://.import/cakeSlicer.obj-4e148b6c9764f2edca83ac9c1ba03783.mesh", "res://.import/cakeSlicer.obj-4e148b6c9764f2edca83ac9c1ba03783.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

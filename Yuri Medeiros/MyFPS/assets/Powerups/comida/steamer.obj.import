@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/steamer.obj-f8ea4bd90cf7519e960b360f7ba5ba6e.mesh"
+
+[deps]
+
+files=[ "res://.import/steamer.obj-f8ea4bd90cf7519e960b360f7ba5ba6e.mesh" ]
+
+source_file="res://assets/Powerups/comida/steamer.obj"
+dest_files=[ "res://.import/steamer.obj-f8ea4bd90cf7519e960b360f7ba5ba6e.mesh", "res://.import/steamer.obj-f8ea4bd90cf7519e960b360f7ba5ba6e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

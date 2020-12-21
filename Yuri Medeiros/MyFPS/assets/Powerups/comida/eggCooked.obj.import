@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/eggCooked.obj-3eb4ffd01892e0d17b9416aa48a55854.mesh"
+
+[deps]
+
+files=[ "res://.import/eggCooked.obj-3eb4ffd01892e0d17b9416aa48a55854.mesh" ]
+
+source_file="res://assets/Powerups/comida/eggCooked.obj"
+dest_files=[ "res://.import/eggCooked.obj-3eb4ffd01892e0d17b9416aa48a55854.mesh", "res://.import/eggCooked.obj-3eb4ffd01892e0d17b9416aa48a55854.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

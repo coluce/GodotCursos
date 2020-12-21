@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/rock.obj-173d14126e5b9870d5da1b99a2a4594f.mesh"
+
+[deps]
+
+files=[ "res://.import/rock.obj-173d14126e5b9870d5da1b99a2a4594f.mesh" ]
+
+source_file="res://assets/Modelos/rock.obj"
+dest_files=[ "res://.import/rock.obj-173d14126e5b9870d5da1b99a2a4594f.mesh", "res://.import/rock.obj-173d14126e5b9870d5da1b99a2a4594f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/satelliteDish_large.obj-eca493fedf66f7c522486a4c68006497.mesh"
+
+[deps]
+
+files=[ "res://.import/satelliteDish_large.obj-eca493fedf66f7c522486a4c68006497.mesh" ]
+
+source_file="res://assets/Modelos/satelliteDish_large.obj"
+dest_files=[ "res://.import/satelliteDish_large.obj-eca493fedf66f7c522486a4c68006497.mesh", "res://.import/satelliteDish_large.obj-eca493fedf66f7c522486a4c68006497.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

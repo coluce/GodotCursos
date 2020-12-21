@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/coconut.obj-3d03576d39660fcea27eb02e3663020f.mesh"
+
+[deps]
+
+files=[ "res://.import/coconut.obj-3d03576d39660fcea27eb02e3663020f.mesh" ]
+
+source_file="res://assets/Powerups/comida/coconut.obj"
+dest_files=[ "res://.import/coconut.obj-3d03576d39660fcea27eb02e3663020f.mesh", "res://.import/coconut.obj-3d03576d39660fcea27eb02e3663020f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/soda.obj-19e618df720028a6e1182f620cbd67e6.mesh"
+
+[deps]
+
+files=[ "res://.import/soda.obj-19e618df720028a6e1182f620cbd67e6.mesh" ]
+
+source_file="res://assets/Powerups/comida/soda.obj"
+dest_files=[ "res://.import/soda.obj-19e618df720028a6e1182f620cbd67e6.mesh", "res://.import/soda.obj-19e618df720028a6e1182f620cbd67e6.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

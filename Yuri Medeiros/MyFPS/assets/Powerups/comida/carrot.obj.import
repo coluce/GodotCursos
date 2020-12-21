@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/carrot.obj-e419719c0597da95224e5ab45bddc226.mesh"
+
+[deps]
+
+files=[ "res://.import/carrot.obj-e419719c0597da95224e5ab45bddc226.mesh" ]
+
+source_file="res://assets/Powerups/comida/carrot.obj"
+dest_files=[ "res://.import/carrot.obj-e419719c0597da95224e5ab45bddc226.mesh", "res://.import/carrot.obj-e419719c0597da95224e5ab45bddc226.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

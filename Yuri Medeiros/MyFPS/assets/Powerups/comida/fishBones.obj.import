@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/fishBones.obj-e3f9c6b6dfc396eec895d9e4e6935c96.mesh"
+
+[deps]
+
+files=[ "res://.import/fishBones.obj-e3f9c6b6dfc396eec895d9e4e6935c96.mesh" ]
+
+source_file="res://assets/Powerups/comida/fishBones.obj"
+dest_files=[ "res://.import/fishBones.obj-e3f9c6b6dfc396eec895d9e4e6935c96.mesh", "res://.import/fishBones.obj-e3f9c6b6dfc396eec895d9e4e6935c96.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

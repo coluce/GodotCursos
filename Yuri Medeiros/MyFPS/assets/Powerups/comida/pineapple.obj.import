@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/pineapple.obj-fa3aaa76103111dbb1dfa8174bcac312.mesh"
+
+[deps]
+
+files=[ "res://.import/pineapple.obj-fa3aaa76103111dbb1dfa8174bcac312.mesh" ]
+
+source_file="res://assets/Powerups/comida/pineapple.obj"
+dest_files=[ "res://.import/pineapple.obj-fa3aaa76103111dbb1dfa8174bcac312.mesh", "res://.import/pineapple.obj-fa3aaa76103111dbb1dfa8174bcac312.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

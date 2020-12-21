@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/crater.obj-509d039e6db44516ddd66fd70411d27f.mesh"
+
+[deps]
+
+files=[ "res://.import/crater.obj-509d039e6db44516ddd66fd70411d27f.mesh" ]
+
+source_file="res://assets/Modelos/crater.obj"
+dest_files=[ "res://.import/crater.obj-509d039e6db44516ddd66fd70411d27f.mesh", "res://.import/crater.obj-509d039e6db44516ddd66fd70411d27f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

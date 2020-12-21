@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/knifeBlock.obj-9d3c2c2c0bd87b73a8e032d28fce3852.mesh"
+
+[deps]
+
+files=[ "res://.import/knifeBlock.obj-9d3c2c2c0bd87b73a8e032d28fce3852.mesh" ]
+
+source_file="res://assets/Powerups/comida/knifeBlock.obj"
+dest_files=[ "res://.import/knifeBlock.obj-9d3c2c2c0bd87b73a8e032d28fce3852.mesh", "res://.import/knifeBlock.obj-9d3c2c2c0bd87b73a8e032d28fce3852.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

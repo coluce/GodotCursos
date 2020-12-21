@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cabbage.obj-cff672ce760362fd7c3cf48cde8adb9d.mesh"
+
+[deps]
+
+files=[ "res://.import/cabbage.obj-cff672ce760362fd7c3cf48cde8adb9d.mesh" ]
+
+source_file="res://assets/Powerups/comida/cabbage.obj"
+dest_files=[ "res://.import/cabbage.obj-cff672ce760362fd7c3cf48cde8adb9d.mesh", "res://.import/cabbage.obj-cff672ce760362fd7c3cf48cde8adb9d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

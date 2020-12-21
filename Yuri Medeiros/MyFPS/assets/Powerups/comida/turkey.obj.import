@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/turkey.obj-0e108d391f6d28f4e141868134baba95.mesh"
+
+[deps]
+
+files=[ "res://.import/turkey.obj-0e108d391f6d28f4e141868134baba95.mesh" ]
+
+source_file="res://assets/Powerups/comida/turkey.obj"
+dest_files=[ "res://.import/turkey.obj-0e108d391f6d28f4e141868134baba95.mesh", "res://.import/turkey.obj-0e108d391f6d28f4e141868134baba95.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

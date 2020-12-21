@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/knife_smooth.obj-ddfd0d60105e9e69abd337dbaf9ee30f.mesh"
+
+[deps]
+
+files=[ "res://.import/knife_smooth.obj-ddfd0d60105e9e69abd337dbaf9ee30f.mesh" ]
+
+source_file="res://assets/arma/municao/knife_smooth.obj"
+dest_files=[ "res://.import/knife_smooth.obj-ddfd0d60105e9e69abd337dbaf9ee30f.mesh", "res://.import/knife_smooth.obj-ddfd0d60105e9e69abd337dbaf9ee30f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

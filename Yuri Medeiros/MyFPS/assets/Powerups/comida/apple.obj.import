@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/apple.obj-f2e9ad606562213609b84bba8b2d20e7.mesh"
+
+[deps]
+
+files=[ "res://.import/apple.obj-f2e9ad606562213609b84bba8b2d20e7.mesh" ]
+
+source_file="res://assets/Powerups/comida/apple.obj"
+dest_files=[ "res://.import/apple.obj-f2e9ad606562213609b84bba8b2d20e7.mesh", "res://.import/apple.obj-f2e9ad606562213609b84bba8b2d20e7.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

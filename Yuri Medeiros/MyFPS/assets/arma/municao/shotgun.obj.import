@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/shotgun.obj-2fec5786a28b45a84d1573f83c72f3c4.mesh"
+
+[deps]
+
+files=[ "res://.import/shotgun.obj-2fec5786a28b45a84d1573f83c72f3c4.mesh" ]
+
+source_file="res://assets/arma/municao/shotgun.obj"
+dest_files=[ "res://.import/shotgun.obj-2fec5786a28b45a84d1573f83c72f3c4.mesh", "res://.import/shotgun.obj-2fec5786a28b45a84d1573f83c72f3c4.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

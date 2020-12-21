@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/potStew.obj-653094f06872109f7e7511bc44dae3dc.mesh"
+
+[deps]
+
+files=[ "res://.import/potStew.obj-653094f06872109f7e7511bc44dae3dc.mesh" ]
+
+source_file="res://assets/Powerups/comida/potStew.obj"
+dest_files=[ "res://.import/potStew.obj-653094f06872109f7e7511bc44dae3dc.mesh", "res://.import/potStew.obj-653094f06872109f7e7511bc44dae3dc.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

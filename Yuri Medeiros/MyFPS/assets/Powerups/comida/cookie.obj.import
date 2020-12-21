@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cookie.obj-58a6fbd5949f18b35d741c929fcd7a9b.mesh"
+
+[deps]
+
+files=[ "res://.import/cookie.obj-58a6fbd5949f18b35d741c929fcd7a9b.mesh" ]
+
+source_file="res://assets/Powerups/comida/cookie.obj"
+dest_files=[ "res://.import/cookie.obj-58a6fbd5949f18b35d741c929fcd7a9b.mesh", "res://.import/cookie.obj-58a6fbd5949f18b35d741c929fcd7a9b.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

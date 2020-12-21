@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/municao.wav-28046adaa9129bd7e3db059485082431.sample"
+
+[deps]
+
+source_file="res://assets/sons/municao.wav"
+dest_files=[ "res://.import/municao.wav-28046adaa9129bd7e3db059485082431.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

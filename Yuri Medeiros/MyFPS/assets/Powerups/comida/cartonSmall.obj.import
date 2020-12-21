@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cartonSmall.obj-1daa184a2d2bfff0de67a681861b017a.mesh"
+
+[deps]
+
+files=[ "res://.import/cartonSmall.obj-1daa184a2d2bfff0de67a681861b017a.mesh" ]
+
+source_file="res://assets/Powerups/comida/cartonSmall.obj"
+dest_files=[ "res://.import/cartonSmall.obj-1daa184a2d2bfff0de67a681861b017a.mesh", "res://.import/cartonSmall.obj-1daa184a2d2bfff0de67a681861b017a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

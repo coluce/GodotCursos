@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://player/Player.gd" type="Script" id=1]
+[ext_resource path="res://assets/sons/batendoasas.wav" type="AudioStream" id=2]
+[ext_resource path="res://assets/sons/tema.wav" type="AudioStream" id=3]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="Player" type="RigidBody"]
+script = ExtResource( 1 )
+
+[node name="Camera" type="Camera" parent="."]
+current = true
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 0, 0 )
+shape = SubResource( 1 )
+
+[node name="AudioBatendoAsas" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource( 2 )
+
+[node name="AudioTema" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource( 3 )
+unit_db = -10.0
+
+[node name="TimerFinish" type="Timer" parent="."]
+autostart = true
+[connection signal="timeout" from="TimerFinish" to="." method="_on_TimerFinish_timeout"]

@@ -1,0 +1,95 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/PressStart2P-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://interfaces/MainMenu.gd" type="Script" id=2]
+[ext_resource path="res://assets/telajogo.jpg" type="Texture" id=3]
+[ext_resource path="res://assets/bird.png" type="Texture" id=4]
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 1 )
+
+[node name="MainMenu" type="Control"]
+pause_mode = 2
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 62.0
+margin_top = 205.0
+margin_right = 262.0
+margin_bottom = 505.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+margin_right = 200.0
+margin_bottom = 54.0
+custom_fonts/font = SubResource( 2 )
+text = "Play"
+icon = ExtResource( 4 )
+
+[node name="lblTitulo" type="Label" parent="."]
+margin_left = 62.1618
+margin_top = 151.13
+margin_right = 302.162
+margin_bottom = 167.13
+custom_fonts/font = SubResource( 2 )
+text = "My Flappy Bird"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblDesenvolvedora" type="Label" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 12.0
+margin_top = -47.0
+margin_right = 989.0
+margin_bottom = -12.0
+custom_fonts/font = SubResource( 2 )
+text = "SCO Software @ 2020 - v0.3
+ricardo.coluce@gmail.com"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblComandos" type="Label" parent="."]
+margin_left = 428.437
+margin_top = 153.508
+margin_right = 928.437
+margin_bottom = 288.508
+custom_fonts/font = SubResource( 2 )
+text = "Controls:
+
+- Key Space - Jump"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lblComandos3" type="Label" parent="."]
+margin_left = 418.508
+margin_top = 395.433
+margin_right = 918.508
+margin_bottom = 530.433
+custom_fonts/font = SubResource( 2 )
+text = "Scoreboard
+
+Not implemented"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_Button_pressed"]

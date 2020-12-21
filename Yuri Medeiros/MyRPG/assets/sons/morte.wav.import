@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/morte.wav-d2b658abd1932f34bcaea14b3701b06d.sample"
+
+[deps]
+
+source_file="res://assets/sons/morte.wav"
+dest_files=[ "res://.import/morte.wav-d2b658abd1932f34bcaea14b3701b06d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

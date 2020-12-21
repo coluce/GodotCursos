@@ -1,0 +1,103 @@
+[gd_scene load_steps=22 format=2]
+
+[ext_resource path="res://assets/Awkward/cima3.png" type="Texture" id=1]
+[ext_resource path="res://assets/Awkward/baixo3.png" type="Texture" id=2]
+[ext_resource path="res://assets/Awkward/cima2.png" type="Texture" id=3]
+[ext_resource path="res://assets/Awkward/cima1.png" type="Texture" id=4]
+[ext_resource path="res://assets/Awkward/direita3.png" type="Texture" id=5]
+[ext_resource path="res://assets/Awkward/direita1.png" type="Texture" id=6]
+[ext_resource path="res://assets/Awkward/baixo1.png" type="Texture" id=7]
+[ext_resource path="res://assets/Awkward/esquerda1.png" type="Texture" id=8]
+[ext_resource path="res://assets/Awkward/baixo2.png" type="Texture" id=9]
+[ext_resource path="res://assets/Awkward/esquerda3.png" type="Texture" id=10]
+[ext_resource path="res://assets/Awkward/direita2.png" type="Texture" id=11]
+[ext_resource path="res://assets/Awkward/esquerda2.png" type="Texture" id=12]
+[ext_resource path="res://player/Player.gd" type="Script" id=13]
+[ext_resource path="res://assets/sons/colocabomba.wav" type="AudioStream" id=14]
+[ext_resource path="res://assets/sons/tesouro.wav" type="AudioStream" id=15]
+[ext_resource path="res://assets/sons/ganhou.wav" type="AudioStream" id=16]
+[ext_resource path="res://assets/sons/morte.wav" type="AudioStream" id=17]
+[ext_resource path="res://assets/sons/dano.wav" type="AudioStream" id=18]
+[ext_resource path="res://assets/sons/tema.wav" type="AudioStream" id=19]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 6 ), ExtResource( 11 ), ExtResource( 5 ) ],
+"loop": true,
+"name": "direita",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "pdireita",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 9 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "baixo",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "pbaixo",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ), ExtResource( 3 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "cima",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 8 ) ],
+"loop": true,
+"name": "pesquerda",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 12 ), ExtResource( 10 ) ],
+"loop": true,
+"name": "esquerda",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "pcima",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+radius = 28.9561
+height = 37.3849
+
+[node name="Player" type="KinematicBody2D"]
+script = ExtResource( 13 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "pbaixo"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 2.52269 )
+shape = SubResource( 2 )
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+enabled = true
+cast_to = Vector2( 0, 80 )
+
+[node name="poeBomba" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 14 )
+
+[node name="tesouro" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 15 )
+
+[node name="ganhou" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 16 )
+
+[node name="dano" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 18 )
+
+[node name="morte" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 17 )
+
+[node name="tema" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 19 )
+volume_db = -10.0
+[connection signal="finished" from="morte" to="." method="_on_morte_finished"]

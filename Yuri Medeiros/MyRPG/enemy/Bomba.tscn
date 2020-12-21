@@ -1,0 +1,71 @@
+[gd_scene load_steps=22 format=2]
+
+[ext_resource path="res://assets/bomba/Bomba2.png" type="Texture" id=1]
+[ext_resource path="res://assets/bomba/explosao/Explosao6.png" type="Texture" id=2]
+[ext_resource path="res://assets/bomba/Bomba7.png" type="Texture" id=3]
+[ext_resource path="res://Bomba.gd" type="Script" id=4]
+[ext_resource path="res://assets/bomba/Bomba5.png" type="Texture" id=5]
+[ext_resource path="res://assets/bomba/Bomba3.png" type="Texture" id=6]
+[ext_resource path="res://assets/bomba/explosao/Explosao1.png" type="Texture" id=7]
+[ext_resource path="res://assets/bomba/explosao/Explosao7.png" type="Texture" id=8]
+[ext_resource path="res://assets/bomba/explosao/Explosao4.png" type="Texture" id=9]
+[ext_resource path="res://assets/bomba/explosao/Explosao5.png" type="Texture" id=10]
+[ext_resource path="res://assets/bomba/explosao/Explosao2.png" type="Texture" id=11]
+[ext_resource path="res://assets/bomba/Bomba1 (1).png" type="Texture" id=12]
+[ext_resource path="res://assets/bomba/explosao/Explosao3.png" type="Texture" id=13]
+[ext_resource path="res://assets/bomba/Bomba6.png" type="Texture" id=14]
+[ext_resource path="res://assets/bomba/Bomba4.png" type="Texture" id=15]
+[ext_resource path="res://assets/bomba/explosao/Explosao8.png" type="Texture" id=16]
+[ext_resource path="res://assets/bomba/Bomba8.png" type="Texture" id=17]
+[ext_resource path="res://assets/sons/explosao.wav" type="AudioStream" id=18]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 12 ), ExtResource( 1 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 15 ), ExtResource( 14 ), ExtResource( 3 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 105.057
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 7 ), ExtResource( 11 ), ExtResource( 13 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 2 ), ExtResource( 8 ), ExtResource( 16 ) ],
+"loop": false,
+"name": "default",
+"speed": 10.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "New Anim",
+"speed": 5.0
+} ]
+
+[node name="Bomba" type="Area2D"]
+scale = Vector2( 0.3, 0.3 )
+z_index = -1
+script = ExtResource( 4 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+frame = 6
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource( 2 )
+
+[node name="explosao" type="AnimatedSprite" parent="."]
+visible = false
+frames = SubResource( 3 )
+animation = "New Anim"
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.3
+
+[node name="explode" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 18 )
+[connection signal="body_entered" from="." to="." method="_on_Bomba_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
